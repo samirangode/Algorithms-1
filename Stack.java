@@ -24,3 +24,27 @@ public class Stack<Item> implements Iterable<Item> {
 		
 	}
 }
+/*
+public class Stack<Item> implements Iterable<Item>
+{
+	public Iterator<Item> iterator()
+	{ return new ReverseArrayIterator(); }
+	private class ReverseArrayIterator implements Iterator<Item>
+	{
+		private int i = N;
+		public boolean hasNext() {
+		public void remove()
+		{
+			public Item next()
+					{
+return i > 0;
+/* not supported */
+return s[--i];
+}
+}
+}
+}
+}
+
+
+*/
