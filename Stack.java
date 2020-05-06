@@ -38,7 +38,7 @@ public class Stack<Item> implements Iterable<Item>
 			public Item next()
 					{
 return i > 0;
-/* not supported */
+// not supported
 return s[--i];
 }
 }
